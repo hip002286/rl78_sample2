@@ -78,7 +78,12 @@ void panel_init0(void)
 
 void panel_dot(void)
 {
-	F1321 = 1;
+	if(F1321 == 0) {
+		F1321 = 1;
+	}
+	else {
+		F1321 = 0;
+	}
 }
 
 
