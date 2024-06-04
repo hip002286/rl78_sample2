@@ -19,9 +19,9 @@
         <Path>src\panel.c</Path>
         <Path>src\digitalio.c</Path>
         <Path>src\counter.c</Path>
-        <Path>src\74hc.c</Path>
         <Path>src\cstart.asm</Path>
         <Path>src\opt_byte.asm</Path>
+        <Path>src\74hc.c</Path>
       </Category>
       <Category Name="IncFile">
         <Path>include\config.h</Path>
@@ -133,7 +133,7 @@
     &lt;/DataElement&gt;
     &lt;DataElement key="pior16_macroname" value=""&gt;
     &lt;/DataElement&gt;
-    &lt;DataElement key="pior24_macroname" value=""&gt;
+    &lt;DataElement key="pior25_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior22_macroname" value=""&gt;
     &lt;/DataElement&gt;
@@ -143,23 +143,21 @@
     &lt;/DataElement&gt;
     &lt;DataElement key="pior30" value="0"&gt;
     &lt;/DataElement&gt;
-    &lt;DataElement key="pior33_macroname" value=""&gt;
+    &lt;DataElement key="pior00" value="0"&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior10" value="0"&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior10_macroname" value=""&gt;
     &lt;/DataElement&gt;
-    &lt;DataElement key="piorfixed" value="False"&gt;
-    &lt;/DataElement&gt;
     &lt;DataElement key="pior30_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior17" value="0"&gt;
     &lt;/DataElement&gt;
+    &lt;DataElement key="pior25" value="0"&gt;
+    &lt;/DataElement&gt;
     &lt;DataElement key="pior01_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior17_macroname" value=""&gt;
-    &lt;/DataElement&gt;
-    &lt;DataElement key="pior25_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior04_macroname" value=""&gt;
     &lt;/DataElement&gt;
@@ -171,21 +169,17 @@
     &lt;/DataElement&gt;
     &lt;DataElement key="pior12" value="0"&gt;
     &lt;/DataElement&gt;
-    &lt;DataElement key="pior31" value="0"&gt;
-    &lt;/DataElement&gt;
-    &lt;DataElement key="pior11" value="0"&gt;
-    &lt;/DataElement&gt;
     &lt;DataElement key="pior03_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior21" value="0"&gt;
     &lt;/DataElement&gt;
-    &lt;DataElement key="pior00" value="0"&gt;
+    &lt;DataElement key="pior31" value="0"&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior01" value="0"&gt;
     &lt;/DataElement&gt;
-    &lt;DataElement key="pior21_macroname" value=""&gt;
+    &lt;DataElement key="pior11" value="0"&gt;
     &lt;/DataElement&gt;
-    &lt;DataElement key="pior06_macroname" value=""&gt;
+    &lt;DataElement key="piorfixed" value="False"&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior00_macroname" value=""&gt;
     &lt;/DataElement&gt;
@@ -197,13 +191,15 @@
     &lt;/DataElement&gt;
     &lt;DataElement key="pior14" value="0"&gt;
     &lt;/DataElement&gt;
+    &lt;DataElement key="pior06_macroname" value=""&gt;
+    &lt;/DataElement&gt;
     &lt;DataElement key="pior12_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior20_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior32_macroname" value=""&gt;
     &lt;/DataElement&gt;
-    &lt;DataElement key="pior15_macroname" value=""&gt;
+    &lt;DataElement key="pior21_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior04" value="0"&gt;
     &lt;/DataElement&gt;
@@ -213,13 +209,15 @@
     &lt;/DataElement&gt;
     &lt;DataElement key="pior03" value="0"&gt;
     &lt;/DataElement&gt;
+    &lt;DataElement key="pior24_macroname" value=""&gt;
+    &lt;/DataElement&gt;
     &lt;DataElement key="pior13" value="0"&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior06" value="0"&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior16" value="0"&gt;
     &lt;/DataElement&gt;
-    &lt;DataElement key="pior25" value="0"&gt;
+    &lt;DataElement key="pior15_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior11_macroname" value=""&gt;
     &lt;/DataElement&gt;
@@ -228,6 +226,8 @@
     &lt;DataElement key="pior15" value="0"&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior31_macroname" value=""&gt;
+    &lt;/DataElement&gt;
+    &lt;DataElement key="pior33_macroname" value=""&gt;
     &lt;/DataElement&gt;
     &lt;DataElement key="pior02_macroname" value=""&gt;
     &lt;/DataElement&gt;

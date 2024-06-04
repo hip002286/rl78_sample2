@@ -1,4 +1,4 @@
-Renesas Optimizing Linker (W3.06.00 )             03-Jun-2024 13:56:33
+Renesas Optimizing Linker (W3.06.00 )             04-Jun-2024 14:22:57
 
 *** Options ***
 
@@ -38,42 +38,4 @@ Renesas Optimizing Linker (W3.06.00 )             03-Jun-2024 13:56:33
 
 *** Error information ***
 
-*** Mapping List ***
-
-SECTION                            START      END         SIZE   ALIGN
-.vect
-                                  00000000  0000007f        80   0
-.constf
-                                  00000080  00000080         0   2
-.sdata
-                                  00000080  00000080         0   2
-.data
-                                  00000082  00000092        11   2
-.option_byte
-                                  000000c0  000000c3         4   1
-.security_id
-                                  000000c4  000000cd         a   1
-.SLIB
-                                  000000c4  000000c4         0   1
-.monitor1
-                                  000000ce  000000d7         a   1
-.text
-                                  000000d8  0000015a        83   1
-.textf
-                                  0000015b  0000062a       4d0   1
-.RLIB
-                                  0000062b  00000638         e   1
-.text_AT10C0
-                                  000010c0  000010c3         4   1
-.const
-                                  00002000  0000200a         b   2
-.monitor2
-                                  00003e00  00003fff       200   1
-.bss
-                                  000ff900  000ff90c         d   2
-.dataR
-                                  000ff90e  000ff91e        11   2
-.sbss
-                                  000ffe20  000ffe28         9   2
-.sdataR
-                                  000ffe2a  000ffe2a         0   2
+E0562310:Undefined external symbol "_panel_dot" referenced in "DefaultBuild\counter.obj"

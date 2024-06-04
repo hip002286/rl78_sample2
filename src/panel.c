@@ -76,6 +76,12 @@ void panel_init0(void)
 	IC74HC4511_INIT0;
 }
 
+void panel_dot(void)
+{
+	F1321 = 1;
+}
+
+
 void panel(void)
 {
 	DGIN_INIT;
@@ -92,5 +98,5 @@ void panel(void)
 	DGOUT_PROC( 51, F0918, HIGH );
 	DGOUT_PROC( 52, F0919, HIGH );
 	DGOUT_PROC( 53, F0920, HIGH );
-	DGOUT_PROC( 54, fOFF, HIGH );
+	DGOUT_PROC( 54, F1321, HIGH );
 }

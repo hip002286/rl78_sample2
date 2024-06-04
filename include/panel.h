@@ -38,6 +38,7 @@ Exported global variables and functions (to be accessed by other files)
 *******************************************************************************/
 /*	Function Prototype	*/
 void	panel_init0( void );
+void	panel_dot( void );
 void	panel( void );
 
 /*******************************************************************************
